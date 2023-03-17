@@ -35,7 +35,6 @@ aunit                       = "23.0.0"
 [build-profiles]
 adacl                       = "validation"
 
-<<<<<<< HEAD
 [[actions.'case(os)'.windows]]
 type                        = "post-build"
 command                     = ["bin/adacl_test-main.exe"]
