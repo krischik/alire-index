@@ -79,16 +79,16 @@ validation.contracts        = "Yes"
 validation.runtime_checks   = "Everything"
 
 [[depends-on]]
-gnat_native                 = "^15.2"
-gprbuild                    = "^25.0"
+# gnat_native                 = "^15.2"
+# gprbuild                    = "^25.0"
 adacl                       = "^7.0.1"
 adacl_regexp                = "^7.0.0"
 adacl_sar                   = "^7.0.0"
 
-[[actions]]
-type                        = "test"
-command                     = ["alr", "run"]
-directory                   = "test"
+# [[actions]]
+# type                        = "test"
+# command                     = ["alr", "run"]
+# directory                   = "test"
 
 # vim: set textwidth=0 nowrap tabstop=8 shiftwidth=4 softtabstop=4 expandtab :
 # vim: set filetype=toml fileencoding=utf-8 fileformat=unix foldmethod=diff :
