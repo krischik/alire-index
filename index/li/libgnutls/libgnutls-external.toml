@@ -7,8 +7,11 @@ maintainers-logins = ["mosteo"]
 [[external]]
 kind = "system"
 [external.origin."case(distribution)"]
-"..." = []
+"arch" = ["gnutls"]
 "debian|ubuntu" = ["libgnutls28-dev"]
+"centos|fedora" = ["gnutls-devel"]
+"homebrew" = ["gnutls"]
+"macports" = ["gnutls"]
 
 [[external]]
 kind = "version-output"
